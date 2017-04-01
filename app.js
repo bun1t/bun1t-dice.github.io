@@ -10,7 +10,7 @@ var config = {
   // - For your faucet to work, you must register your site at Recaptcha
   // - https://www.google.com/recaptcha/intro/index.html
   recaptcha_sitekey: 'b709b944-9f72-40a2-9d41-4df7d0a48748',  // <----- EDIT ME!)
-  redirect_uri: 'https://bun1t-dice.github.io',
+  redirect_uri: 'https://bun1t.github.io',
   mp_browser_uri: 'https://www.moneypot.com',
   mp_api_uri: 'https://api.moneypot.com',
   chat_uri: '//socket.moneypot.com',

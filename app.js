@@ -268,7 +268,7 @@ var MoneyPot = (function() {
 
   // bodyParams is an object:
   // - wager: Int in satoshis
-  // - client_seed: Int in range [0, 0^32)
+  // - client_seed: Int in range [0^32)
   // - hash: BetHash
   // - cond: '<' | '>'
   // - number: Int in range [0, 99.99] that cond applies to

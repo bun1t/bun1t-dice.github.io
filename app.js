@@ -537,8 +537,8 @@ var betStore = new Store('bet', {
     error: undefined
   },
   clientSeed: {
-    str: '48964961565',
-    num: 48964961565,
+    str: '489649615',
+    num: 489649615,
     error:void 0
   },
   showAutomaticRoll: false,

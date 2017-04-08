@@ -6,7 +6,7 @@ var config = {
   // - Your app's id on moneypot.com
   app_id: 2743,                             // <----------------------------- EDIT ME!
   // - Displayed in the navbar
-  app_name: 'Un1t Dice',
+  app_name: '☆☆Un1t Dice☆☆',
   // - For your faucet to work, you must register your site at Recaptcha
   // - https://www.google.com/recaptcha/intro/index.html
   recaptcha_sitekey: '6LfI_QUTAAAAACrjjuzmLw0Cjx9uABxb8uguLbph', // <----- EDIT ME!
@@ -21,10 +21,10 @@ var config = {
   force_https_redirect: !isRunningLocally(),
   // - Configure the house edge (default is 1%)
   //   Must be between 0.0 (0%) and 1.0 (100%)
-  house_edge: 0.005,
-  chat_buffer_size: 250,
+  house_edge: 0.0075,
+  chat_buffer_size: 200,
   // - The amount of bets to show on screen in each tab
-  bet_buffer_size: 25
+  bet_buffer_size: 30
 };
 
 ////////////////////////////////////////////////////////////

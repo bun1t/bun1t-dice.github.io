@@ -522,7 +522,7 @@ var betStore = new Store('bet', {
     error: undefined
   },
   hotkeysEnabled: false,
-  automaticWager: 
+  automaticWager: {
 	
       str: '0.00000001',
       num: 0.00000001,

@@ -1991,7 +1991,7 @@ var ToggleAutomaticRoll1 = React.createClass({
                                     type: 'button',
                                     id: 'displayAutomatic'
                               },
-                              !betStore.state.showAutomaticRoll ? 'Open Autobet' : 'Close Autobet'
+                              !betStore.state.showAutomaticRoll ? 'Autobet' : 'Close Autobet'
                             )
                     )
             )

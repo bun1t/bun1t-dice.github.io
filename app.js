@@ -512,8 +512,8 @@ var chatStore = new Store('chat', {
 var betStore = new Store('bet', {
   nextHash: undefined,
   wager: {
-    str: '0.00000001',
-    num: 0.00000001,
+    str: '0.000001',
+    num: 0.000001,
     error: undefined
   },
   multiplier: {
@@ -523,8 +523,8 @@ var betStore = new Store('bet', {
   },
   hotkeysEnabled: false,
   automaticWager: {
-      str: '0.00000001',
-      num: 0.00000001,
+      str: '0.000001',
+      num: 0.000001,
       error: undefined
   },
   automaticMultiplierWager: {
@@ -673,7 +673,7 @@ var betStore = new Store('bet', {
     Dispatcher.registerCallback('AUTOMATE_TOGGLE_ROLL', function() {
         console.log('[BetStore] received AUTOMATE_TOGGLE_ROLL');
         betStore.state.automaticToggle = true;
-        var balance = worldStore.state.user.balance * 0.00000001;
+        var balance = worldStore.state.user.balance * 0.01;
         var stop = false;
         if(betStore.state.checkBoxNumberOfBet === 'true' && (betStore.state.betCounter + 1) == self.state.NumberOfBetLimit.str){
             stop = true;
